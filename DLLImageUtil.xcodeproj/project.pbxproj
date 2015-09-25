@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E22DDD41B94288700987954 /* DLLImageTextProcesser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E22DDD31B94288700987954 /* DLLImageTextProcesser.m */; };
+		4E22DDD71B94336000987954 /* DLLImageShadowCornerProcesser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E22DDD61B94336000987954 /* DLLImageShadowCornerProcesser.m */; };
+		4E6AE0B21B8EBEDF00D455C7 /* DLLCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AE0AF1B8EBEDF00D455C7 /* DLLCameraView.m */; };
+		4E6AE0B31B8EBEDF00D455C7 /* UIImage+DLLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AE0B11B8EBEDF00D455C7 /* UIImage+DLLUtil.m */; };
+		4E6AE0B61B8EBF1B00D455C7 /* DLLImageTiltShiftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AE0B51B8EBF1B00D455C7 /* DLLImageTiltShiftView.m */; };
+		4EF0F1DB1B8D689C005F9C46 /* DLLImageProcesser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0F1DA1B8D689C005F9C46 /* DLLImageProcesser.m */; };
+		4EF0F1DE1B8D8687005F9C46 /* DLLImageBrightProcesser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0F1DD1B8D8687005F9C46 /* DLLImageBrightProcesser.m */; };
+		4EF0F1E71B8D8861005F9C46 /* DLLImageTiltShiftProcesser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0F1E61B8D8861005F9C46 /* DLLImageTiltShiftProcesser.m */; };
+		4EF899F81B85818300AD6851 /* DLLImageUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4EF899F71B85818300AD6851 /* DLLImageUtil.h */; };
+		4EF899FA1B85818300AD6851 /* DLLImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF899F91B85818300AD6851 /* DLLImageUtil.m */; };
+		4EFF28E91B9042C90035CC95 /* DLLImageLibraryGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF28E81B9042C90035CC95 /* DLLImageLibraryGroup.m */; };
+		4EFF28EE1B9047110035CC95 /* DLLImageLibraryLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF28ED1B9047110035CC95 /* DLLImageLibraryLoader.m */; };
+		4EFF28F11B904B780035CC95 /* DLLImageLibraryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF28F01B904B780035CC95 /* DLLImageLibraryItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4EF899F21B85818300AD6851 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				4EF899F81B85818300AD6851 /* DLLImageUtil.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4E22DDD21B94288700987954 /* DLLImageTextProcesser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLImageTextProcesser.h; sourceTree = "<group>"; };
+		4E22DDD31B94288700987954 /* DLLImageTextProcesser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLImageTextProcesser.m; sourceTree = "<group>"; };
+		4E22DDD51B94336000987954 /* DLLImageShadowCornerProcesser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLImageShadowCornerProcesser.h; sourceTree = "<group>"; };
+		4E22DDD61B94336000987954 /* DLLImageShadowCornerProcesser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLImageShadowCornerProcesser.m; sourceTree = "<group>"; };
+		4E6AE0AE1B8EBEDF00D455C7 /* DLLCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLCameraView.h; sourceTree = "<group>"; };
+		4E6AE0AF1B8EBEDF00D455C7 /* DLLCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLCameraView.m; sourceTree = "<group>"; };
+		4E6AE0B01B8EBEDF00D455C7 /* UIImage+DLLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DLLUtil.h"; sourceTree = "<group>"; };
+		4E6AE0B11B8EBEDF00D455C7 /* UIImage+DLLUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DLLUtil.m"; sourceTree = "<group>"; };
+		4E6AE0B41B8EBF1B00D455C7 /* DLLImageTiltShiftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLImageTiltShiftView.h; sourceTree = "<group>"; };
+		4E6AE0B51B8EBF1B00D455C7 /* DLLImageTiltShiftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLImageTiltShiftView.m; sourceTree = "<group>"; };
+		4E6AE0B71B8EC04B00D455C7 /* DLLImageTiltShiftMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLImageTiltShiftMode.h; sourceTree = "<group>"; };
+		4EF0F1D91B8D689C005F9C46 /* DLLImageProcesser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLImageProcesser.h; sourceTree = "<group>"; };
+		4EF0F1DA1B8D689C005F9C46 /* DLLImageProcesser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLImageProcesser.m; sourceTree = "<group>"; };
+		4EF0F1DC1B8D8687005F9C46 /* DLLImageBrightProcesser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLImageBrightProcesser.h; sourceTree = "<group>"; };
+		4EF0F1DD1B8D8687005F9C46 /* DLLImageBrightProcesser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLImageBrightProcesser.m; sourceTree = "<group>"; };
+		4EF0F1E51B8D8861005F9C46 /* DLLImageTiltShiftProcesser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLImageTiltShiftProcesser.h; sourceTree = "<group>"; };
+		4EF0F1E61B8D8861005F9C46 /* DLLImageTiltShiftProcesser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLImageTiltShiftProcesser.m; sourceTree = "<group>"; };
+		4EF899F41B85818300AD6851 /* libDLLImageUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDLLImageUtil.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF899F71B85818300AD6851 /* DLLImageUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLLImageUtil.h; sourceTree = "<group>"; };
+		4EF899F91B85818300AD6851 /* DLLImageUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLLImageUtil.m; sourceTree = "<group>"; };
+		4EFF28E71B9042C90035CC95 /* DLLImageLibraryGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLImageLibraryGroup.h; sourceTree = "<group>"; };
+		4EFF28E81B9042C90035CC95 /* DLLImageLibraryGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLImageLibraryGroup.m; sourceTree = "<group>"; };
+		4EFF28EC1B9047110035CC95 /* DLLImageLibraryLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLImageLibraryLoader.h; sourceTree = "<group>"; };
+		4EFF28ED1B9047110035CC95 /* DLLImageLibraryLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLImageLibraryLoader.m; sourceTree = "<group>"; };
+		4EFF28EF1B904B780035CC95 /* DLLImageLibraryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLImageLibraryItem.h; sourceTree = "<group>"; };
+		4EFF28F01B904B780035CC95 /* DLLImageLibraryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLImageLibraryItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EF899F11B85818300AD6851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E15F95A1B8B3794000B00C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EF0F1D51B8D6853005F9C46 /* ImageProcesser */ = {
+			isa = PBXGroup;
+			children = (
+				4EF0F1D91B8D689C005F9C46 /* DLLImageProcesser.h */,
+				4EF0F1DA1B8D689C005F9C46 /* DLLImageProcesser.m */,
+				4EF0F1DC1B8D8687005F9C46 /* DLLImageBrightProcesser.h */,
+				4EF0F1DD1B8D8687005F9C46 /* DLLImageBrightProcesser.m */,
+				4EF0F1E51B8D8861005F9C46 /* DLLImageTiltShiftProcesser.h */,
+				4EF0F1E61B8D8861005F9C46 /* DLLImageTiltShiftProcesser.m */,
+				4E22DDD21B94288700987954 /* DLLImageTextProcesser.h */,
+				4E22DDD31B94288700987954 /* DLLImageTextProcesser.m */,
+				4E22DDD51B94336000987954 /* DLLImageShadowCornerProcesser.h */,
+				4E22DDD61B94336000987954 /* DLLImageShadowCornerProcesser.m */,
+			);
+			path = ImageProcesser;
+			sourceTree = "<group>";
+		};
+		4EF899EB1B85818300AD6851 = {
+			isa = PBXGroup;
+			children = (
+				4E15F95A1B8B3794000B00C6 /* Frameworks */,
+				4EF899F61B85818300AD6851 /* DLLImageUtil */,
+				4EF899F51B85818300AD6851 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EF899F51B85818300AD6851 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EF899F41B85818300AD6851 /* libDLLImageUtil.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EF899F61B85818300AD6851 /* DLLImageUtil */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF28E31B90428F0035CC95 /* ImageLoader */,
+				4EF0F1D51B8D6853005F9C46 /* ImageProcesser */,
+				4EF899F71B85818300AD6851 /* DLLImageUtil.h */,
+				4EF899F91B85818300AD6851 /* DLLImageUtil.m */,
+				4E6AE0AE1B8EBEDF00D455C7 /* DLLCameraView.h */,
+				4E6AE0AF1B8EBEDF00D455C7 /* DLLCameraView.m */,
+				4E6AE0B01B8EBEDF00D455C7 /* UIImage+DLLUtil.h */,
+				4E6AE0B11B8EBEDF00D455C7 /* UIImage+DLLUtil.m */,
+				4E6AE0B41B8EBF1B00D455C7 /* DLLImageTiltShiftView.h */,
+				4E6AE0B51B8EBF1B00D455C7 /* DLLImageTiltShiftView.m */,
+				4E6AE0B71B8EC04B00D455C7 /* DLLImageTiltShiftMode.h */,
+			);
+			path = DLLImageUtil;
+			sourceTree = "<group>";
+		};
+		4EFF28E31B90428F0035CC95 /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF28EC1B9047110035CC95 /* DLLImageLibraryLoader.h */,
+				4EFF28ED1B9047110035CC95 /* DLLImageLibraryLoader.m */,
+				4EFF28E71B9042C90035CC95 /* DLLImageLibraryGroup.h */,
+				4EFF28E81B9042C90035CC95 /* DLLImageLibraryGroup.m */,
+				4EFF28EF1B904B780035CC95 /* DLLImageLibraryItem.h */,
+				4EFF28F01B904B780035CC95 /* DLLImageLibraryItem.m */,
+			);
+			path = ImageLoader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EF899F31B85818300AD6851 /* DLLImageUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF89A081B85818300AD6851 /* Build configuration list for PBXNativeTarget "DLLImageUtil" */;
+			buildPhases = (
+				4EF899F01B85818300AD6851 /* Sources */,
+				4EF899F11B85818300AD6851 /* Frameworks */,
+				4EF899F21B85818300AD6851 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLLImageUtil;
+			productName = DLLImageUtil;
+			productReference = 4EF899F41B85818300AD6851 /* libDLLImageUtil.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EF899EC1B85818300AD6851 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = DLL;
+				TargetAttributes = {
+					4EF899F31B85818300AD6851 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 4EF899EF1B85818300AD6851 /* Build configuration list for PBXProject "DLLImageUtil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4EF899EB1B85818300AD6851;
+			productRefGroup = 4EF899F51B85818300AD6851 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EF899F31B85818300AD6851 /* DLLImageUtil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EF899F01B85818300AD6851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF899FA1B85818300AD6851 /* DLLImageUtil.m in Sources */,
+				4E22DDD41B94288700987954 /* DLLImageTextProcesser.m in Sources */,
+				4EF0F1DE1B8D8687005F9C46 /* DLLImageBrightProcesser.m in Sources */,
+				4EFF28E91B9042C90035CC95 /* DLLImageLibraryGroup.m in Sources */,
+				4EF0F1E71B8D8861005F9C46 /* DLLImageTiltShiftProcesser.m in Sources */,
+				4EF0F1DB1B8D689C005F9C46 /* DLLImageProcesser.m in Sources */,
+				4EFF28F11B904B780035CC95 /* DLLImageLibraryItem.m in Sources */,
+				4E6AE0B21B8EBEDF00D455C7 /* DLLCameraView.m in Sources */,
+				4E6AE0B31B8EBEDF00D455C7 /* UIImage+DLLUtil.m in Sources */,
+				4E6AE0B61B8EBF1B00D455C7 /* DLLImageTiltShiftView.m in Sources */,
+				4E22DDD71B94336000987954 /* DLLImageShadowCornerProcesser.m in Sources */,
+				4EFF28EE1B9047110035CC95 /* DLLImageLibraryLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4EF89A061B85818300AD6851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4EF89A071B85818300AD6851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EF89A091B85818300AD6851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4EF89A0A1B85818300AD6851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EF899EF1B85818300AD6851 /* Build configuration list for PBXProject "DLLImageUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF89A061B85818300AD6851 /* Debug */,
+				4EF89A071B85818300AD6851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EF89A081B85818300AD6851 /* Build configuration list for PBXNativeTarget "DLLImageUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF89A091B85818300AD6851 /* Debug */,
+				4EF89A0A1B85818300AD6851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EF899EC1B85818300AD6851 /* Project object */;
+}
